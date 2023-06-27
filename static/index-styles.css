@@ -1,0 +1,128 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 10%;
+    border-bottom: 2px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.header-title {
+    margin-left: 10%;
+    color: crimson;
+}
+
+.nav-bar div {
+    height: 50px;
+    width: 80px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.nav-bar a {
+    all: unset;
+}
+
+.nav-bar div:hover {
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.active {
+    border-bottom: 2px solid red;
+}
+
+.nav-bar {
+    margin-right: 20%;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+/* .main-container, .container-text, .container-books {
+    border: 1px solid black;
+} */
+
+.main-container {
+    width: 75%;
+    margin-top: 50px;
+    display: flex;
+    height: 600px;
+}
+
+.container-text {
+    width: 55%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-text .title {
+    font-size: 28px;
+}
+
+.container-books {
+    width: 45%;
+    height: 600px;
+    background-image: url(./books.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.genre-container{
+    width: 80%;
+    height: 600px;
+}
+
+.genre-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.genre-cover {
+    border-radius: 50%;
+    height: 530px;
+    width: 550px;
+    background-size: cover;
+}
+
+.genre-descrip {
+    height: 200px;
+    width: 50%;
+}
+
+.click-here-btn {
+    padding: 10px;
+    width: 200px;
+    border: 0;
+    color: white;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+.right-arrow {
+    width: 50%;
+    height: 600px;
+}
+
+.left-arrow {
+    height: 600px;
+}
