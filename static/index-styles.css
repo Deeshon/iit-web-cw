@@ -80,7 +80,7 @@ body {
 .container-books {
     width: 45%;
     height: 600px;
-    background-image: url(./books.png);
+    background-image: url(./images/books.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
